@@ -1,0 +1,17 @@
+@use '../abstracts/vars';
+.overlay {
+    background-color: vars.$color_green;
+    position: fixed;
+    top: 0;
+    left: -100vw;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+    &.active {
+        left: 0;
+    }
+}

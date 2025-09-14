@@ -1,0 +1,21 @@
+@use '../abstracts/mixins';
+@use '../abstracts/vars';
+.flex {
+    //background-color: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+    .item {
+        width: 50%;
+        margin-bottom: 2rem;
+        @include mixins.breakpoint(tablet) {
+            width: 33.33%
+        }
+        @include mixins.breakpoint(laptop) {
+            width: 25%
+        }
+        @include mixins.breakpoint(desktop) {
+            width: 20%
+        }
+    }
+}

@@ -1,0 +1,20 @@
+#showcase {
+    width: 600px;
+    height: 600px;
+    background-color: lightgray;
+    transition: all .5s;
+    position: relative;
+    h3 {
+        font-size: 3rem;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        bottom: 1rem;
+        left: 1rem;
+    }
+}
+
+#buttonsContainer {
+    margin-top: 1rem;
+    background-color: aqua;
+}

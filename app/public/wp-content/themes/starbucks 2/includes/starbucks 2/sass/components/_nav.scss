@@ -1,0 +1,32 @@
+@use '../abstracts/vars';
+@use '../abstracts/mixins';
+
+.nav-primary {
+	//background-color: yellow
+	display: none;
+	@include mixins.breakpoint(laptop) {
+		display: block;
+	}
+
+	ul {
+		height: 100%;
+		//background-color: red;
+		display: flex;
+		align-items: center;
+		li {
+			a {
+				font-family: vars.$font_primary;
+				font-weight: bold;
+				color: black;
+				text-transform: uppercase;
+				font-size: 1rem;
+				text-decoration: none;
+				padding: 1rem;
+				letter-spacing: 1px;
+				&:hover {
+					color: vars.$color_green;
+				}
+			}
+		}
+	}
+}

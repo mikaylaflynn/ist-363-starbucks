@@ -1,0 +1,8 @@
+@use '../abstracts/mixins';
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    @include mixins.justifyContents();
+    @include mixins.alignItems();
+    @include mixins.flexDirections();
+}

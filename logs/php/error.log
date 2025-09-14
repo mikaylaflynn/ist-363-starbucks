@@ -1,0 +1,666 @@
+[14-Sep-2022 12:37:31 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/update.php on line 172
+[14-Sep-2022 12:37:31 UTC] PHP Stack trace:
+[14-Sep-2022 12:37:31 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-cron.php:0
+[14-Sep-2022 12:37:31 UTC] PHP   2. do_action_ref_array() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-cron.php:138
+[14-Sep-2022 12:37:31 UTC] PHP   3. WP_Hook->do_action() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/plugin.php:524
+[14-Sep-2022 12:37:31 UTC] PHP   4. WP_Hook->apply_filters() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/class-wp-hook.php:331
+[14-Sep-2022 12:37:31 UTC] PHP   5. wp_version_check() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/class-wp-hook.php:307
+[14-Sep-2022 12:37:31 UTC] PHP   6. trigger_error() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/update.php:172
+[14-Sep-2022 12:37:31 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/update.php on line 410
+[14-Sep-2022 12:37:31 UTC] PHP Stack trace:
+[14-Sep-2022 12:37:31 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-cron.php:0
+[14-Sep-2022 12:37:31 UTC] PHP   2. do_action_ref_array() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-cron.php:138
+[14-Sep-2022 12:37:31 UTC] PHP   3. WP_Hook->do_action() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/plugin.php:524
+[14-Sep-2022 12:37:31 UTC] PHP   4. WP_Hook->apply_filters() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/class-wp-hook.php:331
+[14-Sep-2022 12:37:31 UTC] PHP   5. wp_update_plugins() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/class-wp-hook.php:307
+[14-Sep-2022 12:37:31 UTC] PHP   6. trigger_error() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/update.php:410
+[14-Sep-2022 12:37:31 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/update.php on line 690
+[14-Sep-2022 12:37:31 UTC] PHP Stack trace:
+[14-Sep-2022 12:37:31 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-cron.php:0
+[14-Sep-2022 12:37:31 UTC] PHP   2. do_action_ref_array() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-cron.php:138
+[14-Sep-2022 12:37:31 UTC] PHP   3. WP_Hook->do_action() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/plugin.php:524
+[14-Sep-2022 12:37:31 UTC] PHP   4. WP_Hook->apply_filters() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/class-wp-hook.php:331
+[14-Sep-2022 12:37:31 UTC] PHP   5. wp_update_themes() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/class-wp-hook.php:307
+[14-Sep-2022 12:37:31 UTC] PHP   6. trigger_error() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/update.php:690
+[04-Oct-2022 21:17:59 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:17:59 UTC] PHP Stack trace:
+[04-Oct-2022 21:17:59 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/themes.php:0
+[04-Oct-2022 21:17:59 UTC] PHP   2. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/themes.php:10
+[04-Oct-2022 21:17:59 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/admin.php:34
+[04-Oct-2022 21:17:59 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:17:59 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:17:59 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:17:59 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:17:59 UTC] PHP Stack trace:
+[04-Oct-2022 21:17:59 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/themes.php:0
+[04-Oct-2022 21:17:59 UTC] PHP   2. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/themes.php:10
+[04-Oct-2022 21:17:59 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/admin.php:34
+[04-Oct-2022 21:17:59 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:17:59 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:17:59 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:17:59 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:17:59 UTC] PHP Stack trace:
+[04-Oct-2022 21:17:59 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:17:59 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:17:59 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:17:59 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:17:59 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:17:59 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:17:59 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:17:59 UTC] PHP Stack trace:
+[04-Oct-2022 21:17:59 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:17:59 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:17:59 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:17:59 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:17:59 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:17:59 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:04 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:04 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:04 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:04 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:04 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:04 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:04 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:04 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:04 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:04 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:04 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:04 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:04 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:04 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:04 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:04 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:06 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:06 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:06 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/themes.php:0
+[04-Oct-2022 21:18:06 UTC] PHP   2. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/themes.php:10
+[04-Oct-2022 21:18:06 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/admin.php:34
+[04-Oct-2022 21:18:06 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:06 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:06 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:06 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:06 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:06 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/themes.php:0
+[04-Oct-2022 21:18:06 UTC] PHP   2. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/themes.php:10
+[04-Oct-2022 21:18:06 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/admin.php:34
+[04-Oct-2022 21:18:06 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:06 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:06 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:06 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:06 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:06 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:06 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:06 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:06 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:06 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:06 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:06 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:06 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:06 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:06 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:06 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:06 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:06 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:06 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:11 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:11 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:11 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:11 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:11 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:11 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:11 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:11 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:11 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:11 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:11 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:11 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:11 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:11 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:11 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:11 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:14 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:14 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:14 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:14 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:14 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:14 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:14 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:14 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:14 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:14 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:14 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:14 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:14 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:14 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:14 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:14 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:14 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:14 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:14 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:14 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:14 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:14 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:14 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:14 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:14 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:14 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:14 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:14 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:14 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:14 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:14 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:14 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:14 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:14 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:14 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:14 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:14 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:14 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:14 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:14 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:14 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:14 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:14 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:14 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:14 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:14 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:14 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:14 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:14 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:14 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:14 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:14 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:14 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:14 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:14 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:14 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:14 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:14 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:14 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:14 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:14 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:14 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:14 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:14 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:15 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:15 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:15 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/themes.php:0
+[04-Oct-2022 21:18:15 UTC] PHP   2. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/themes.php:10
+[04-Oct-2022 21:18:15 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/admin.php:34
+[04-Oct-2022 21:18:15 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:15 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:15 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:15 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:15 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:15 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/themes.php:0
+[04-Oct-2022 21:18:15 UTC] PHP   2. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/themes.php:10
+[04-Oct-2022 21:18:15 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/admin.php:34
+[04-Oct-2022 21:18:15 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:15 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:15 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:16 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:16 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:16 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:16 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:16 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:16 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:16 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:16 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:16 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:16 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:16 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:16 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:16 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:16 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:16 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:16 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:17 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:17 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:17 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:17 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:17 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:17 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:17 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:17 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:17 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:17 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:17 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:17 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:17 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:17 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:18 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:18 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:18 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:18 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:18 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:18 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:18 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:18 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:18 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:18 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:18 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:18 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:18 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:18 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:18 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:18 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:18 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:18 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:18 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:18 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:18 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:18 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:18 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:18 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:18 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:18 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:18 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:18 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:18 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:18 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:18 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:18 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:18 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:18 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:19 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:19 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:19 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:19 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:19 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:19 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:19 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:19 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:19 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:19 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:19 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:19 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:19 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:19 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:19 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:19 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:22 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:22 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:22 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/admin-ajax.php:0
+[04-Oct-2022 21:18:22 UTC] PHP   2. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/admin-ajax.php:22
+[04-Oct-2022 21:18:22 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:22 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:22 UTC] PHP   5. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:22 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:22 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:22 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/admin-ajax.php:0
+[04-Oct-2022 21:18:22 UTC] PHP   2. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/admin-ajax.php:22
+[04-Oct-2022 21:18:22 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:22 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:22 UTC] PHP   5. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:22 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:22 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:22 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:22 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:22 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:22 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:22 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:22 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:22 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:22 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:22 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:22 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:22 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:22 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:22 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:22 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:32 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:32 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:32 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/themes.php:0
+[04-Oct-2022 21:18:32 UTC] PHP   2. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/themes.php:10
+[04-Oct-2022 21:18:32 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/admin.php:34
+[04-Oct-2022 21:18:32 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:32 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:32 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:32 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:32 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:32 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/themes.php:0
+[04-Oct-2022 21:18:32 UTC] PHP   2. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/themes.php:10
+[04-Oct-2022 21:18:32 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/admin.php:34
+[04-Oct-2022 21:18:32 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:32 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:32 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:32 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:32 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:32 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:32 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:32 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:32 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:32 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:32 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:32 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:32 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:32 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:32 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:32 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:32 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:32 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:32 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:47 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:47 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:47 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/admin-ajax.php:0
+[04-Oct-2022 21:18:47 UTC] PHP   2. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/admin-ajax.php:22
+[04-Oct-2022 21:18:47 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:47 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:47 UTC] PHP   5. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:47 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:47 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:47 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/admin-ajax.php:0
+[04-Oct-2022 21:18:47 UTC] PHP   2. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/admin-ajax.php:22
+[04-Oct-2022 21:18:47 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:47 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:47 UTC] PHP   5. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:47 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:47 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:47 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:47 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:47 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:47 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:47 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:47 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:47 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:47 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:47 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:47 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:47 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:47 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:47 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:47 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:49 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:49 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:49 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/themes.php:0
+[04-Oct-2022 21:18:49 UTC] PHP   2. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/themes.php:10
+[04-Oct-2022 21:18:49 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/admin.php:34
+[04-Oct-2022 21:18:49 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:49 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:49 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:49 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:49 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:49 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/themes.php:0
+[04-Oct-2022 21:18:49 UTC] PHP   2. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/themes.php:10
+[04-Oct-2022 21:18:49 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/admin.php:34
+[04-Oct-2022 21:18:49 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:49 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:49 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:49 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:49 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:49 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:49 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:49 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:49 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:49 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:49 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:18:49 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:18:49 UTC] PHP Stack trace:
+[04-Oct-2022 21:18:49 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:18:49 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:18:49 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:18:49 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:18:49 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:18:49 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:19:11 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:19:11 UTC] PHP Stack trace:
+[04-Oct-2022 21:19:11 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:19:11 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:19:11 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:19:11 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:19:11 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:19:11 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:19:11 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:19:11 UTC] PHP Stack trace:
+[04-Oct-2022 21:19:11 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:19:11 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:19:11 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:19:11 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:19:11 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:19:11 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:19:11 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:19:11 UTC] PHP Stack trace:
+[04-Oct-2022 21:19:11 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:19:11 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:19:11 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:19:11 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:19:11 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:19:11 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:19:11 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:19:11 UTC] PHP Stack trace:
+[04-Oct-2022 21:19:11 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:19:11 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:19:11 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:19:11 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:19:11 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:19:11 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:20:31 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:20:31 UTC] PHP Stack trace:
+[04-Oct-2022 21:20:31 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:20:31 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:20:31 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:20:31 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:20:31 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:20:31 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:20:31 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:20:31 UTC] PHP Stack trace:
+[04-Oct-2022 21:20:31 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:20:31 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:20:31 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:20:31 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:20:31 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:20:31 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:20:31 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:20:31 UTC] PHP Stack trace:
+[04-Oct-2022 21:20:31 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:20:31 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:20:31 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:20:31 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:20:31 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:20:31 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:20:31 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:20:31 UTC] PHP Stack trace:
+[04-Oct-2022 21:20:31 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:20:31 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:20:31 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:20:31 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:20:31 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:20:31 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:21:05 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:21:05 UTC] PHP Stack trace:
+[04-Oct-2022 21:21:05 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/index.php:0
+[04-Oct-2022 21:21:05 UTC] PHP   2. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/index.php:10
+[04-Oct-2022 21:21:05 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/admin.php:34
+[04-Oct-2022 21:21:05 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:21:05 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:21:05 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:21:05 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:21:05 UTC] PHP Stack trace:
+[04-Oct-2022 21:21:05 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/index.php:0
+[04-Oct-2022 21:21:05 UTC] PHP   2. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/index.php:10
+[04-Oct-2022 21:21:05 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-admin/admin.php:34
+[04-Oct-2022 21:21:05 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:21:05 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:21:05 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:21:05 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:21:05 UTC] PHP Stack trace:
+[04-Oct-2022 21:21:05 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:21:05 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:21:05 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:21:05 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:21:05 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:21:05 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 21:21:05 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2includes/register-post-types.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 3
+[04-Oct-2022 21:21:05 UTC] PHP Stack trace:
+[04-Oct-2022 21:21:05 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 21:21:05 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 21:21:05 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[04-Oct-2022 21:21:05 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[04-Oct-2022 21:21:05 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[04-Oct-2022 21:21:05 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[04-Oct-2022 23:05:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/partials/posts/listByCategory.php on line 9
+[04-Oct-2022 23:05:07 UTC] PHP Stack trace:
+[04-Oct-2022 23:05:07 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[04-Oct-2022 23:05:07 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[04-Oct-2022 23:05:07 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:19
+[04-Oct-2022 23:05:07 UTC] PHP   4. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/template-loader.php:106
+[04-Oct-2022 23:05:07 UTC] PHP   5. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/index.php:4
+[06-Oct-2022 21:08:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/partials/posts/listByCategory.php on line 9
+[06-Oct-2022 21:08:36 UTC] PHP Stack trace:
+[06-Oct-2022 21:08:36 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[06-Oct-2022 21:08:36 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[06-Oct-2022 21:08:36 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:19
+[06-Oct-2022 21:08:36 UTC] PHP   4. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/template-loader.php:106
+[06-Oct-2022 21:08:36 UTC] PHP   5. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/index.php:4
+[06-Oct-2022 21:08:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/partials/posts/listByCategory.php on line 9
+[06-Oct-2022 21:08:36 UTC] PHP Stack trace:
+[06-Oct-2022 21:08:36 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[06-Oct-2022 21:08:36 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[06-Oct-2022 21:08:36 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:19
+[06-Oct-2022 21:08:36 UTC] PHP   4. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/template-loader.php:106
+[06-Oct-2022 21:08:36 UTC] PHP   5. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/index.php:4
+[06-Oct-2022 21:18:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/partials/posts/listByCategory.php on line 9
+[06-Oct-2022 21:18:18 UTC] PHP Stack trace:
+[06-Oct-2022 21:18:18 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[06-Oct-2022 21:18:18 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[06-Oct-2022 21:18:18 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:19
+[06-Oct-2022 21:18:18 UTC] PHP   4. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/template-loader.php:106
+[06-Oct-2022 21:18:18 UTC] PHP   5. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/index.php:4
+[06-Oct-2022 21:31:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/partials/posts/listByCategory.php on line 9
+[06-Oct-2022 21:31:23 UTC] PHP Stack trace:
+[06-Oct-2022 21:31:23 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[06-Oct-2022 21:31:23 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[06-Oct-2022 21:31:23 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:19
+[06-Oct-2022 21:31:23 UTC] PHP   4. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/template-loader.php:106
+[06-Oct-2022 21:31:23 UTC] PHP   5. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/index.php:4
+[06-Oct-2022 21:33:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/partials/posts/listByCategory.php on line 9
+[06-Oct-2022 21:33:23 UTC] PHP Stack trace:
+[06-Oct-2022 21:33:23 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[06-Oct-2022 21:33:23 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[06-Oct-2022 21:33:23 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:19
+[06-Oct-2022 21:33:23 UTC] PHP   4. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/template-loader.php:106
+[06-Oct-2022 21:33:23 UTC] PHP   5. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/index.php:4
+[06-Oct-2022 21:33:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/partials/posts/listByCategory.php on line 9
+[06-Oct-2022 21:33:24 UTC] PHP Stack trace:
+[06-Oct-2022 21:33:24 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[06-Oct-2022 21:33:24 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[06-Oct-2022 21:33:24 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:19
+[06-Oct-2022 21:33:24 UTC] PHP   4. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/template-loader.php:106
+[06-Oct-2022 21:33:24 UTC] PHP   5. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/index.php:4
+[06-Oct-2022 21:33:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/partials/posts/listByCategory.php on line 9
+[06-Oct-2022 21:33:25 UTC] PHP Stack trace:
+[06-Oct-2022 21:33:25 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[06-Oct-2022 21:33:25 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[06-Oct-2022 21:33:25 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:19
+[06-Oct-2022 21:33:25 UTC] PHP   4. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/template-loader.php:106
+[06-Oct-2022 21:33:25 UTC] PHP   5. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/index.php:4
+[06-Oct-2022 21:33:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/partials/posts/listByCategory.php on line 9
+[06-Oct-2022 21:33:26 UTC] PHP Stack trace:
+[06-Oct-2022 21:33:26 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[06-Oct-2022 21:33:26 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[06-Oct-2022 21:33:26 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:19
+[06-Oct-2022 21:33:26 UTC] PHP   4. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/template-loader.php:106
+[06-Oct-2022 21:33:26 UTC] PHP   5. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/index.php:4
+[06-Oct-2022 21:33:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/partials/posts/listByCategory.php on line 9
+[06-Oct-2022 21:33:47 UTC] PHP Stack trace:
+[06-Oct-2022 21:33:47 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[06-Oct-2022 21:33:47 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[06-Oct-2022 21:33:47 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:19
+[06-Oct-2022 21:33:47 UTC] PHP   4. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/template-loader.php:106
+[06-Oct-2022 21:33:47 UTC] PHP   5. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/index.php:4
+[06-Oct-2022 21:33:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/partials/posts/listByCategory.php on line 9
+[06-Oct-2022 21:33:48 UTC] PHP Stack trace:
+[06-Oct-2022 21:33:48 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[06-Oct-2022 21:33:48 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[06-Oct-2022 21:33:48 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:19
+[06-Oct-2022 21:33:48 UTC] PHP   4. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/template-loader.php:106
+[06-Oct-2022 21:33:48 UTC] PHP   5. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/index.php:4
+[06-Oct-2022 21:34:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/partials/posts/listByCategory.php on line 9
+[06-Oct-2022 21:34:40 UTC] PHP Stack trace:
+[06-Oct-2022 21:34:40 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[06-Oct-2022 21:34:40 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[06-Oct-2022 21:34:40 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:19
+[06-Oct-2022 21:34:40 UTC] PHP   4. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/template-loader.php:106
+[06-Oct-2022 21:34:40 UTC] PHP   5. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/index.php:4
+[06-Oct-2022 21:34:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/partials/posts/listByCategory.php on line 9
+[06-Oct-2022 21:34:41 UTC] PHP Stack trace:
+[06-Oct-2022 21:34:41 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[06-Oct-2022 21:34:41 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[06-Oct-2022 21:34:41 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:19
+[06-Oct-2022 21:34:41 UTC] PHP   4. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/template-loader.php:106
+[06-Oct-2022 21:34:41 UTC] PHP   5. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/index.php:4
+[06-Oct-2022 21:55:23 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/includes/register-taxonomies.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 4
+[06-Oct-2022 21:55:23 UTC] PHP Stack trace:
+[06-Oct-2022 21:55:23 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[06-Oct-2022 21:55:23 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[06-Oct-2022 21:55:23 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[06-Oct-2022 21:55:23 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[06-Oct-2022 21:55:23 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[06-Oct-2022 21:55:23 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[06-Oct-2022 21:55:23 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/includes/register-taxonomies.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 4
+[06-Oct-2022 21:55:23 UTC] PHP Stack trace:
+[06-Oct-2022 21:55:23 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[06-Oct-2022 21:55:23 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[06-Oct-2022 21:55:23 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[06-Oct-2022 21:55:23 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[06-Oct-2022 21:55:23 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[06-Oct-2022 21:55:23 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[06-Oct-2022 21:55:23 UTC] PHP Warning:  require(/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/includes/register-taxonomies.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 4
+[06-Oct-2022 21:55:23 UTC] PHP Stack trace:
+[06-Oct-2022 21:55:23 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[06-Oct-2022 21:55:23 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[06-Oct-2022 21:55:23 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[06-Oct-2022 21:55:23 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[06-Oct-2022 21:55:23 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[06-Oct-2022 21:55:23 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[06-Oct-2022 21:55:23 UTC] PHP Fatal error:  require(): Failed opening required '/Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/includes/register-taxonomies.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2/functions.php on line 4
+[06-Oct-2022 21:55:23 UTC] PHP Stack trace:
+[06-Oct-2022 21:55:23 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[06-Oct-2022 21:55:23 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[06-Oct-2022 21:55:23 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:13
+[06-Oct-2022 21:55:23 UTC] PHP   4. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-load.php:50
+[06-Oct-2022 21:55:23 UTC] PHP   5. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-config.php:91
+[06-Oct-2022 21:55:23 UTC] PHP   6. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-settings.php:566
+[01-Nov-2022 21:08:51 UTC] PHP Warning:  include(/partials/products/listByCategory.php): failed to open stream: No such file or directory in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2 3/template-menu.php on line 9
+[01-Nov-2022 21:08:51 UTC] PHP Stack trace:
+[01-Nov-2022 21:08:51 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[01-Nov-2022 21:08:51 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[01-Nov-2022 21:08:51 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:19
+[01-Nov-2022 21:08:51 UTC] PHP   4. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/template-loader.php:106
+[01-Nov-2022 21:08:51 UTC] PHP Warning:  include(): Failed opening '/partials/products/listByCategory.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2 3/template-menu.php on line 9
+[01-Nov-2022 21:08:51 UTC] PHP Stack trace:
+[01-Nov-2022 21:08:51 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:0
+[01-Nov-2022 21:08:51 UTC] PHP   2. require() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php:17
+[01-Nov-2022 21:08:51 UTC] PHP   3. require_once() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php:19
+[01-Nov-2022 21:08:51 UTC] PHP   4. include() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/template-loader.php:106
+[09-Nov-2022 13:45:07 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/update.php on line 209
+[09-Nov-2022 13:45:07 UTC] PHP Stack trace:
+[09-Nov-2022 13:45:07 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-cron.php:0
+[09-Nov-2022 13:45:07 UTC] PHP   2. do_action_ref_array() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-cron.php:188
+[09-Nov-2022 13:45:07 UTC] PHP   3. WP_Hook->do_action() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/plugin.php:565
+[09-Nov-2022 13:45:07 UTC] PHP   4. WP_Hook->apply_filters() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/class-wp-hook.php:332
+[09-Nov-2022 13:45:07 UTC] PHP   5. wp_version_check() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/class-wp-hook.php:308
+[09-Nov-2022 13:45:07 UTC] PHP   6. trigger_error() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/update.php:209
+[09-Nov-2022 13:45:09 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/update.php on line 447
+[09-Nov-2022 13:45:09 UTC] PHP Stack trace:
+[09-Nov-2022 13:45:09 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-cron.php:0
+[09-Nov-2022 13:45:09 UTC] PHP   2. do_action_ref_array() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-cron.php:188
+[09-Nov-2022 13:45:09 UTC] PHP   3. WP_Hook->do_action() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/plugin.php:565
+[09-Nov-2022 13:45:09 UTC] PHP   4. WP_Hook->apply_filters() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/class-wp-hook.php:332
+[09-Nov-2022 13:45:09 UTC] PHP   5. wp_update_plugins() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/class-wp-hook.php:308
+[09-Nov-2022 13:45:09 UTC] PHP   6. trigger_error() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/update.php:447
+[09-Nov-2022 13:45:09 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/update.php on line 728
+[09-Nov-2022 13:45:09 UTC] PHP Stack trace:
+[09-Nov-2022 13:45:09 UTC] PHP   1. {main}() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-cron.php:0
+[09-Nov-2022 13:45:09 UTC] PHP   2. do_action_ref_array() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-cron.php:188
+[09-Nov-2022 13:45:09 UTC] PHP   3. WP_Hook->do_action() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/plugin.php:565
+[09-Nov-2022 13:45:09 UTC] PHP   4. WP_Hook->apply_filters() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/class-wp-hook.php:332
+[09-Nov-2022 13:45:09 UTC] PHP   5. wp_update_themes() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/class-wp-hook.php:308
+[09-Nov-2022 13:45:09 UTC] PHP   6. trigger_error() /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/update.php:728
+[15-Nov-2022 21:16:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpbloginfo() in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2 3/template-subaru.php:7
+Stack trace:
+#0 /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-blog-header.php(19): require_once('/Users/mikaylaf...')
+#2 /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/index.php(17): require('/Users/mikaylaf...')
+#3 {main}
+  thrown in /Users/mikaylaflynn/Local Sites/ist-363-starbucks/app/public/wp-content/themes/starbucks 2 3/template-subaru.php on line 7

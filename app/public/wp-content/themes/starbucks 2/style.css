@@ -1,0 +1,21 @@
+/*
+Theme name: IST363 Starbucks
+Author: Jeff Passetti
+Version: 1.2
+Description: This is a summary about my theme.
+Tags: Responsive, Sports, News
+*/
+
+body {
+	background-color: green;
+}
+.responsive-img {
+	width: 100%;
+	height: auto;
+}
+.mb2 {
+	margin-bottom: 2rem;
+}
+.caption {
+	font-style: italic;
+}

@@ -1,0 +1,32 @@
+@use '../abstracts/vars';
+@use '../abstracts/mixins';
+
+h1 {
+    font-family: vars.$font_primary;
+    font-size: 3rem;
+    color: vars.$color_green;
+}
+h2 {
+    font-family: vars.$font_primary;
+    font-size: 20px;
+    color: vars.$color_green;
+    font-weight: bold;
+    @include mixins.breakpoint(tablet) {
+        font-size: 24px;
+    }
+    @include mixins.breakpoint(laptop) {
+        font-size: 28px;
+    }
+    @include mixins.breakpoint(desktop) {
+        font-size: 32px;
+    }
+}
+h3 {
+    @include mixins.buildFontProperties(Arial, 20px, limegreen);
+}
+p {
+    font-family: vars.$font_primary;
+    font-size: 1rem;
+    line-height: 1.35;
+    color: black;
+}
